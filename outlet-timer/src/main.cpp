@@ -1,0 +1,14 @@
+#include <Arduino.h>
+
+void setup() {
+  pinMode(2, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(8, HIGH);
+  delay(50000);
+  digitalWrite(8, LOW);
+  delay(60*1000*5);
+}
